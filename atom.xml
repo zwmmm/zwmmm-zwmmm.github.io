@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zwmmm.github.io</id>
     <title>Wayne</title>
-    <updated>2020-06-01T02:35:42.472Z</updated>
+    <updated>2020-06-01T13:09:01.407Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zwmmm.github.io"/>
     <link rel="self" href="https://zwmmm.github.io/atom.xml"/>
@@ -16,98 +16,96 @@
         <link href="https://zwmmm.github.io/prerender/">
         </link>
         <updated>2020-05-29T03:18:27.000Z</updated>
-        <summary type="html"><![CDATA[<h2 id="前言">🌵前言</h2>
-<p>开发一个官网项目，由于使用传统的多页面开发模式，不利于做优化。</p>
-<h2 id="预渲染">🎄预渲染</h2>
-<p>通过使用 <a href="https://github.com/chrisvfritz/prerender-spa-plugin">prerender-spa-plugin</a> 生成静态页面，既提高了页面渲染的速度，也利于 <code>seo</code>，使用方式如下</p>
-]]></summary>
-        <content type="html"><![CDATA[<h2 id="前言">🌵前言</h2>
-<p>开发一个官网项目，由于使用传统的多页面开发模式，不利于做优化。</p>
-<h2 id="预渲染">🎄预渲染</h2>
-<p>通过使用 <a href="https://github.com/chrisvfritz/prerender-spa-plugin">prerender-spa-plugin</a> 生成静态页面，既提高了页面渲染的速度，也利于 <code>seo</code>，使用方式如下</p>
+        <summary type="html"><![CDATA[<section id="nice" data-tool="mdnice编辑器" data-website="https://www.mdnice.com" style="font-size: 16px; padding: 0 10px; word-spacing: 0px; word-break: break-word; word-wrap: break-word; text-align: left; margin-top: -10px; line-height: 1.75; color: #595959; font-family: Optima-Regular, Optima, PingFangTC-Light, PingFangSC-light, PingFangTC-light; letter-spacing: 2px; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"><h2 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; text-align: left; margin: 20px 10px 0px 0px;"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 18px; font-weight: bold; display: inline-block; padding-left: 10px; border-left: 5px solid #DEC6FB; color: #595959;">🌵前言</span><span class="suffix"></span></h2>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">开发一个官网项目，由于使用传统的多页面开发模式，不利于做优化。</p>
+<h2 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; text-align: left; margin: 20px 10px 0px 0px;"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 18px; font-weight: bold; display: inline-block; padding-left: 10px; border-left: 5px solid #DEC6FB; color: #595959;">🎄预渲染</span><span class="suffix"></span></h2>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">通过使用 <a href="https://github.com/chrisvfritz/prerender-spa-plugin" style="text-decoration: none; word-wrap: break-word; color: #664D9D; font-weight: normal; border-bottom: 1px solid #664D9D;">prerender-spa-plugin</a> 生成静态页面，既提高了页面渲染的速度，也利于 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">seo</code>，使用方式如下</p>]]></summary>
+        <content type="html"><![CDATA[<section id="nice" data-tool="mdnice编辑器" data-website="https://www.mdnice.com" style="font-size: 16px; padding: 0 10px; word-spacing: 0px; word-break: break-word; word-wrap: break-word; text-align: left; margin-top: -10px; line-height: 1.75; color: #595959; font-family: Optima-Regular, Optima, PingFangTC-Light, PingFangSC-light, PingFangTC-light; letter-spacing: 2px; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"><h2 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; text-align: left; margin: 20px 10px 0px 0px;"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 18px; font-weight: bold; display: inline-block; padding-left: 10px; border-left: 5px solid #DEC6FB; color: #595959;">🌵前言</span><span class="suffix"></span></h2>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">开发一个官网项目，由于使用传统的多页面开发模式，不利于做优化。</p>
+<h2 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; text-align: left; margin: 20px 10px 0px 0px;"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 18px; font-weight: bold; display: inline-block; padding-left: 10px; border-left: 5px solid #DEC6FB; color: #595959;">🎄预渲染</span><span class="suffix"></span></h2>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">通过使用 <a href="https://github.com/chrisvfritz/prerender-spa-plugin" style="text-decoration: none; word-wrap: break-word; color: #664D9D; font-weight: normal; border-bottom: 1px solid #664D9D;">prerender-spa-plugin</a> 生成静态页面，既提高了页面渲染的速度，也利于 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">seo</code>，使用方式如下</p>
 <!-- more -->
-<pre><code class="language-js">const PrerenderSPAPlugin = require('prerender-spa-plugin');
-const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
-const path = require('path');
-
-module.exports = {
-    plugins: [new PrerenderSPAPlugin({
-        staticDir: path.join(__dirname, 'dist'),
-        routes: [ '/' ], // 需要预渲染的路由,
-        renderer: new Renderer({
-            headless: true, // 开启无头浏览器
-            renderAfterDocumentEvent: 'render-event', // 渲染的事件，只有触发了这个事件，插件才会开始爬取html
-          }),
-    })]
-}
-</code></pre>
-<pre><code class="language-js">// 在 App.vue 中调用如下方法，事件名称和 renderAfterDocumentEvent 保持一直，其他框架在类似的生命周期调用即可
-export default {
-  mounted() {
-    document.dispatchEvent(new Event('render-event'));
-  }
-};
-</code></pre>
-<h2 id="踩坑记录">踩坑记录</h2>
-<h3 id="unable-to-prerender-all-routes">Unable to prerender all routes!</h3>
-<p>在mac下设置了 headless: false 导致提示 <code>Unable to prerender all routes!</code> google 了一堆，告诉我说不能使用路由懒加载，其实造成这个报错的原因有很多，我是设置了headless: true 就好了<br>
-<img src="https://zwmmm.github.io/post-images/1590735278740.jpg" alt="" loading="lazy"></p>
-<h3 id="静态资源使用了cdn">静态资源使用了cdn</h3>
-<p>由于使用了cdn，但是我们还没有发布，所以cdn上并没有对于的资源，导致页面加载失败（终端会一直卡住没反应）</p>
-<p>这个的解决办法，google一搜也有很多的解决办法，比较好的办法就是使用代理，将cdn地址代理到本地。<br>
-我看了几篇文章，都是重新用node起一个代理服务，其实 <code>prerender-spa-plugin</code>  本身就可以设置代理。</p>
-<p>只需要将代理服务起的端口号改成80，并且修改本机host中127.0.0.1的映射就可以实现代理，这样设置以后，请求 <code>xxx.cdn.com/static/1.txt</code> 就等于 <code>127.0.0.1/static/1.txt</code></p>
-<p>具体代码如下：</p>
-<pre><code class="language-diff">// webpack.config.js
-const PrerenderSPAPlugin = require('prerender-spa-plugin');
-const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
-const path = require('path');
-
-module.exports = {
-    plugins: [new PrerenderSPAPlugin({
-        staticDir: path.join(__dirname, 'dist'),
-        routes: [ '/' ], // 需要预渲染的路由,
-        renderer: new Renderer({
-            headless: true, // 开启无头浏览器
-            renderAfterDocumentEvent: 'render-event', // 渲染的事件，只有触发了这个事件，插件才会开始爬取html
-        }),
-     + server: {
-     +     port: 80, // 设置端口为80
-     +     proxy: {
-     +       '/static: {
-     +         target: `http://localhost`,
-     +         changeOrigin: true,
-     +         pathRewrite: {
-     +           '^/static': '/'
-     +         }
-     +       }
-     +    }
-     + }
-    })]
-}
-</code></pre>
-<p>现在只有最后一步了，修改host这个操作总不能每次手动来吧，我们现在写一个node脚本帮我们做这个事情</p>
-<pre><code class="language-js">// build.js
-const util = require('util');
-const exec = util.promisify(require('child_process').exec);
-const hostile = require('hostile');
-
-const  cdnDomain = 'xxx.cdn.com';
-
-process.env.FORCE_COLOR = true; // 开启控制台打印的颜色
-
-hostile.set('127.0.0.1', cdnDomain, async () =&gt; {
-  const { stdout, stderr } = await exec('vue-cli-service build');
-  console.log(stdout);
-  console.log(stderr);
-  hostile.remove('127.0.0.1', cdnDomain, () =&gt; process.exit(0));
-});
-</code></pre>
-<p>最后 <code>node build.js</code> 完成打包</p>
-<h3 id="代理了cdn带来的问题">代理了cdn带来的问题</h3>
-<p>本来以为已经完美解决cdn的问题了，但是当我们某些资源在cdn中存在，而在本地不存在，使用代理反而会出现问题。</p>
-<p>我遇到的问题是这样的，为了优化代码的体积，将 <code>vue vue-router swiper</code> 等依赖外置，使用cdn的方式引入，而我本地却没有这些文件。由于修改了host，已经没有其他办法在访问到cdn上的资源了。</p>
-<p>最终的解决办法很笨，在 <code>public</code> 文件夹中存放这些文件，保证通过代理也能访问到，然后使用 git 忽略这部分文件，避免发布出去。</p>
-]]></content>
+<pre class="custom" data-tool="mdnice编辑器" style="margin-top: 10px; margin-bottom: 10px; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 10px;"><span style="display: block; background: url(https://imgkr.cn-bj.ufileos.com/97e4eed2-a992-4976-acf0-ccb6fb34d308.png); height: 30px; width: 100%; background-size: 40px; background-repeat: no-repeat; background-color: #282c34; margin-bottom: -7px; border-radius: 5px; background-position: 10px 10px;"></span><code class="hljs" style="overflow-x: auto; padding: 16px; color: #abb2bf; display: block; font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; font-size: 12px; -webkit-overflow-scrolling: touch; padding-top: 15px; background: #282c34; border-radius: 5px;"><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> PrerenderSPAPlugin = <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">require</span>(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'prerender-spa-plugin'</span>);
+<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
+<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> path = <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">require</span>(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'path'</span>);
+<span/>
+<span/><span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">module</span>.exports = {
+<span/>    <span class="hljs-attr" style="color: #d19a66; line-height: 26px;">plugins</span>: [<span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">new</span> PrerenderSPAPlugin({
+<span/>        <span class="hljs-attr" style="color: #d19a66; line-height: 26px;">staticDir</span>: path.join(__dirname, <span class="hljs-string" style="color: #98c379; line-height: 26px;">'dist'</span>),
+<span/>        <span class="hljs-attr" style="color: #d19a66; line-height: 26px;">routes</span>: [ <span class="hljs-string" style="color: #98c379; line-height: 26px;">'/'</span> ], <span class="hljs-comment" style="color: #5c6370; font-style: italic; line-height: 26px;">// 需要预渲染的路由,</span>
+<span/>        renderer: <span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">new</span> Renderer({
+<span/>            <span class="hljs-attr" style="color: #d19a66; line-height: 26px;">headless</span>: <span class="hljs-literal" style="color: #56b6c2; line-height: 26px;">true</span>, <span class="hljs-comment" style="color: #5c6370; font-style: italic; line-height: 26px;">// 开启无头浏览器</span>
+<span/>            renderAfterDocumentEvent: <span class="hljs-string" style="color: #98c379; line-height: 26px;">'render-event'</span>, <span class="hljs-comment" style="color: #5c6370; font-style: italic; line-height: 26px;">// 渲染的事件，只有触发了这个事件，插件才会开始爬取html</span>
+<span/>          }),
+<span/>    })]
+<span/>}
+<span/></code></pre>
+<pre class="custom" data-tool="mdnice编辑器" style="margin-top: 10px; margin-bottom: 10px; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 10px;"><span style="display: block; background: url(https://imgkr.cn-bj.ufileos.com/97e4eed2-a992-4976-acf0-ccb6fb34d308.png); height: 30px; width: 100%; background-size: 40px; background-repeat: no-repeat; background-color: #282c34; margin-bottom: -7px; border-radius: 5px; background-position: 10px 10px;"></span><code class="hljs" style="overflow-x: auto; padding: 16px; color: #abb2bf; display: block; font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; font-size: 12px; -webkit-overflow-scrolling: touch; padding-top: 15px; background: #282c34; border-radius: 5px;"><span class="hljs-comment" style="color: #5c6370; font-style: italic; line-height: 26px;">// 在 App.vue 中调用如下方法，事件名称和 renderAfterDocumentEvent 保持一直，其他框架在类似的生命周期调用即可</span>
+<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">export</span> <span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">default</span> {
+<span/>  mounted() {
+<span/>    <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">document</span>.dispatchEvent(<span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">new</span> Event(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'render-event'</span>));
+<span/>  }
+<span/>};
+<span/></code></pre>
+<h2 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; text-align: left; margin: 20px 10px 0px 0px;"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 18px; font-weight: bold; display: inline-block; padding-left: 10px; border-left: 5px solid #DEC6FB; color: #595959;">踩坑记录</span><span class="suffix"></span></h2>
+<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; color: black; font-size: 16px; font-weight: bold; text-align: center;"><span class="prefix" style="display: none;"></span><span class="content" style="border-bottom: 2px solid #DEC6FB; color: #595959;">Unable to prerender all routes!</span><span class="suffix" style="display: none;"></span></h3>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">在mac下设置了 headless: false 导致提示 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">Unable to prerender all routes!</code> google 了一堆，告诉我说不能使用路由懒加载，其实造成这个报错的原因有很多，我是设置了headless: true 就好了
+![](https://zwmmm.github.io/post-images/1590735278740.jpg)</p>
+<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; color: black; font-size: 16px; font-weight: bold; text-align: center;"><span class="prefix" style="display: none;"></span><span class="content" style="border-bottom: 2px solid #DEC6FB; color: #595959;">静态资源使用了cdn</span><span class="suffix" style="display: none;"></span></h3>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">由于使用了cdn，但是我们还没有发布，所以cdn上并没有对于的资源，导致页面加载失败（终端会一直卡住没反应）</p>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">这个的解决办法，google一搜也有很多的解决办法，比较好的办法就是使用代理，将cdn地址代理到本地。
+我看了几篇文章，都是重新用node起一个代理服务，其实 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">prerender-spa-plugin</code>  本身就可以设置代理。</p>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">只需要将代理服务起的端口号改成80，并且修改本机host中127.0.0.1的映射就可以实现代理，这样设置以后，请求 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">xxx.cdn.com/static/1.txt</code> 就等于 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">127.0.0.1/static/1.txt</code></p>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">具体代码如下：</p>
+<pre class="custom" data-tool="mdnice编辑器" style="margin-top: 10px; margin-bottom: 10px; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 10px;"><span style="display: block; background: url(https://imgkr.cn-bj.ufileos.com/97e4eed2-a992-4976-acf0-ccb6fb34d308.png); height: 30px; width: 100%; background-size: 40px; background-repeat: no-repeat; background-color: #282c34; margin-bottom: -7px; border-radius: 5px; background-position: 10px 10px;"></span><code class="hljs" style="overflow-x: auto; padding: 16px; color: #abb2bf; display: block; font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; font-size: 12px; -webkit-overflow-scrolling: touch; padding-top: 15px; background: #282c34; border-radius: 5px;">// webpack.config.js
+<span/>const PrerenderSPAPlugin = require('prerender-spa-plugin');
+<span/>const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
+<span/>const path = require('path');
+<span/>
+<span/>module.exports = {
+<span/>    plugins: [new PrerenderSPAPlugin({
+<span/>        staticDir: path.join(__dirname, 'dist'),
+<span/>        routes: [ '/' ], // 需要预渲染的路由,
+<span/>        renderer: new Renderer({
+<span/>            headless: true, // 开启无头浏览器
+<span/>            renderAfterDocumentEvent: 'render-event', // 渲染的事件，只有触发了这个事件，插件才会开始爬取html
+<span/>        }),
+<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+       server: {</span>
+<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+           port: 80, // 设置端口为80</span>
+<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+           proxy: {</span>
+<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+             '/static: {</span>
+<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+               target: `http://localhost`,</span>
+<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+               changeOrigin: true,</span>
+<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+               pathRewrite: {</span>
+<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+                 '^/static': '/'</span>
+<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+               }</span>
+<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+             }</span>
+<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+          }</span>
+<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+       }</span>
+<span/>    })]
+<span/>}
+<span/></code></pre>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">现在只有最后一步了，修改host这个操作总不能每次手动来吧，我们现在写一个node脚本帮我们做这个事情</p>
+<pre class="custom" data-tool="mdnice编辑器" style="margin-top: 10px; margin-bottom: 10px; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 10px;"><span style="display: block; background: url(https://imgkr.cn-bj.ufileos.com/97e4eed2-a992-4976-acf0-ccb6fb34d308.png); height: 30px; width: 100%; background-size: 40px; background-repeat: no-repeat; background-color: #282c34; margin-bottom: -7px; border-radius: 5px; background-position: 10px 10px;"></span><code class="hljs" style="overflow-x: auto; padding: 16px; color: #abb2bf; display: block; font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; font-size: 12px; -webkit-overflow-scrolling: touch; padding-top: 15px; background: #282c34; border-radius: 5px;"><span class="hljs-comment" style="color: #5c6370; font-style: italic; line-height: 26px;">// build.js</span>
+<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> util = <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">require</span>(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'util'</span>);
+<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> exec = util.promisify(<span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">require</span>(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'child_process'</span>).exec);
+<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> hostile = <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">require</span>(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'hostile'</span>);
+<span/>
+<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span>  cdnDomain = <span class="hljs-string" style="color: #98c379; line-height: 26px;">'xxx.cdn.com'</span>;
+<span/>
+<span/>process.env.FORCE_COLOR = <span class="hljs-literal" style="color: #56b6c2; line-height: 26px;">true</span>; <span class="hljs-comment" style="color: #5c6370; font-style: italic; line-height: 26px;">// 开启控制台打印的颜色</span>
+<span/>
+<span/>hostile.set(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'127.0.0.1'</span>, cdnDomain, <span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">async</span> () =&gt; {
+<span/>  <span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> { stdout, stderr } = <span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">await</span> exec(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'vue-cli-service build'</span>);
+<span/>  <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">console</span>.log(stdout);
+<span/>  <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">console</span>.log(stderr);
+<span/>  hostile.remove(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'127.0.0.1'</span>, cdnDomain, () =&gt; process.exit(<span class="hljs-number" style="color: #d19a66; line-height: 26px;">0</span>));
+<span/>});
+<span/></code></pre>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">最后 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">node build.js</code> 完成打包</p>
+<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; color: black; font-size: 16px; font-weight: bold; text-align: center;"><span class="prefix" style="display: none;"></span><span class="content" style="border-bottom: 2px solid #DEC6FB; color: #595959;">代理了cdn带来的问题</span><span class="suffix" style="display: none;"></span></h3>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">本来以为已经完美解决cdn的问题了，但是当我们某些资源在cdn中存在，而在本地不存在，使用代理反而会出现问题。</p>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">我遇到的问题是这样的，为了优化代码的体积，将 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">vue vue-router swiper</code> 等依赖外置，使用cdn的方式引入，而我本地却没有这些文件。由于修改了host，已经没有其他办法在访问到cdn上的资源了。</p>
+<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">最终的解决办法很笨，在 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">public</code> 文件夹中存放这些文件，保证通过代理也能访问到，然后使用 git 忽略这部分文件，避免发布出去。</p>]]></content>
     </entry>
 </feed>
