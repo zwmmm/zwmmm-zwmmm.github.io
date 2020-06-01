@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zwmmm.github.io</id>
+    <title>Wayne</title>
+    <updated>2020-06-01T02:25:41.525Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://zwmmm.github.io"/>
+    <link rel="self" href="https://zwmmm.github.io/atom.xml"/>
+    <subtitle>至繁归至简</subtitle>
+    <logo>https://zwmmm.github.io/images/avatar.png</logo>
+    <icon>https://zwmmm.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, Wayne</rights>
+    <entry>
+        <title type="html"><![CDATA[前端预渲染方案]]></title>
+        <id>https://zwmmm.github.io/prerender/</id>
+        <link href="https://zwmmm.github.io/prerender/">
+        </link>
+        <updated>2020-05-29T03:18:27.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="前言">🌵前言</h2>
+<p>开发一个官网项目，由于使用传统的多页面开发模式，不利于做优化。</p>
+<h2 id="预渲染">🎄预渲染</h2>
+<p>通过使用 <a href="https://github.com/chrisvfritz/prerender-spa-plugin">prerender-spa-plugin</a> 生成静态页面，既提高了页面渲染的速度，也利于 <code>seo</code>，使用方式如下</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="前言">🌵前言</h2>
+<p>开发一个官网项目，由于使用传统的多页面开发模式，不利于做优化。</p>
+<h2 id="预渲染">🎄预渲染</h2>
+<p>通过使用 <a href="https://github.com/chrisvfritz/prerender-spa-plugin">prerender-spa-plugin</a> 生成静态页面，既提高了页面渲染的速度，也利于 <code>seo</code>，使用方式如下</p>
+<!-- more -->
+<pre><code class="language-js">const PrerenderSPAPlugin = require('prerender-spa-plugin');
+const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
+const path = require('path');
+
+module.exports = {
+    plugins: [new PrerenderSPAPlugin({
+        staticDir: path.join(__dirname, 'dist'),
+        routes: [ '/' ], // 需要预渲染的路由,
+        renderer: new Renderer({
+            headless: true, // 开启无头浏览器
+            renderAfterDocumentEvent: 'render-event', // 渲染的事件，只有触发了这个事件，插件才会开始爬取html
+          }),
+    })]
+}
+</code></pre>
+<pre><code class="language-js">// 在 App.vue 中调用如下方法，事件名称和 renderAfterDocumentEvent 保持一直，其他框架在类似的生命周期调用即可
+export default {
+  mounted() {
+    document.dispatchEvent(new Event('render-event'));
+  }
+};
+</code></pre>
+<h2 id="踩坑记录">踩坑记录</h2>
+<h3 id="unable-to-prerender-all-routes">Unable to prerender all routes!</h3>
+<p>在mac下设置了 headless: false 导致提示 <code>Unable to prerender all routes!</code> google 了一堆，告诉我说不能使用路由懒加载，其实造成这个报错的原因有很多，我是设置了headless: true 就好了<br>
+<img src="https://zwmmm.github.io/post-images/1590735278740.jpg" alt="" loading="lazy"></p>
+<h3 id="静态资源使用了cdn">静态资源使用了cdn</h3>
+<p>由于使用了cdn，但是我们还没有发布，所以cdn上并没有对于的资源，导致页面加载失败（终端会一直卡住没反应）</p>
+<p>这个的解决办法，google一搜也有很多的解决办法，比较好的办法就是使用代理，将cdn地址代理到本地。<br>
+我看了几篇文章，都是重新用node起一个代理服务，其实 <code>prerender-spa-plugin</code>  本身就可以设置代理。</p>
+<p>只需要将代理服务起的端口号改成80，并且修改本机host中127.0.0.1的映射就可以实现代理，这样设置以后，请求 <code>xxx.cdn.com/static/1.txt</code> 就等于 <code>127.0.0.1/static/1.txt</code></p>
+<p>具体代码如下：</p>
+<pre><code class="language-diff">// webpack.config.js
+const PrerenderSPAPlugin = require('prerender-spa-plugin');
+const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
+const path = require('path');
+
+module.exports = {
+    plugins: [new PrerenderSPAPlugin({
+        staticDir: path.join(__dirname, 'dist'),
+        routes: [ '/' ], // 需要预渲染的路由,
+        renderer: new Renderer({
+            headless: true, // 开启无头浏览器
+            renderAfterDocumentEvent: 'render-event', // 渲染的事件，只有触发了这个事件，插件才会开始爬取html
+        }),
+     + server: {
+     +     port: 80, // 设置端口为80
+     +     proxy: {
+     +       '/static: {
+     +         target: `http://localhost`,
+     +         changeOrigin: true,
+     +         pathRewrite: {
+     +           '^/static': '/'
+     +         }
+     +       }
+     +    }
+     + }
+    })]
+}
+</code></pre>
+<p>现在只有最后一步了，修改host这个操作总不能每次手动来吧，我们现在写一个node脚本帮我们做这个事情</p>
+<pre><code class="language-js">// build.js
+const util = require('util');
+const exec = util.promisify(require('child_process').exec);
+const hostile = require('hostile');
+
+const  cdnDomain = 'xxx.cdn.com';
+
+process.env.FORCE_COLOR = true; // 开启控制台打印的颜色
+
+hostile.set('127.0.0.1', cdnDomain, async () =&gt; {
+  const { stdout, stderr } = await exec('vue-cli-service build');
+  console.log(stdout);
+  console.log(stderr);
+  hostile.remove('127.0.0.1', cdnDomain, () =&gt; process.exit(0));
+});
+</code></pre>
+<p>最后 <code>node build.js</code> 完成打包</p>
+<h3 id="代理了cdn带来的问题">代理了cdn带来的问题</h3>
+<p>本来以为已经完美解决cdn的问题了，但是当我们某些资源在cdn中存在，而在本地不存在，使用代理反而会出现问题。</p>
+<p>我遇到的问题是这样的，为了优化代码的体积，将 <code>vue vue-router swiper</code> 等依赖外置，使用cdn的方式引入，而我本地却没有这些文件。由于修改了host，已经没有其他办法在访问到cdn上的资源了。</p>
+<p>最终的解决办法很笨，在 <code>public</code> 文件夹中存放这些文件，保证通过代理也能访问到，然后使用 git 忽略这部分文件，避免发布出去。</p>
+]]></content>
+    </entry>
+</feed>
