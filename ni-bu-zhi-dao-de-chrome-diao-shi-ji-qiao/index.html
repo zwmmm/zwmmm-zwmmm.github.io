@@ -1,23 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zwmmm.github.io</id>
-    <title>Wayne</title>
-    <updated>2020-06-02T12:56:23.918Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://zwmmm.github.io"/>
-    <link rel="self" href="https://zwmmm.github.io/atom.xml"/>
-    <subtitle>至繁归至简</subtitle>
-    <logo>https://zwmmm.github.io/images/avatar.png</logo>
-    <icon>https://zwmmm.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Wayne</rights>
-    <entry>
-        <title type="html"><![CDATA[你不知道的Chrome调试技巧]]></title>
-        <id>https://zwmmm.github.io/ni-bu-zhi-dao-de-chrome-diao-shi-ji-qiao/</id>
-        <link href="https://zwmmm.github.io/ni-bu-zhi-dao-de-chrome-diao-shi-ji-qiao/">
-        </link>
-        <updated>2020-06-02T12:49:26.000Z</updated>
-        <summary type="html"><![CDATA[<section id="nice" data-tool="mdnice编辑器" data-website="https://www.mdnice.com" style="font-size: 16px; padding: 0 10px; word-spacing: 0px; word-break: break-word; word-wrap: break-word; text-align: left; margin-top: -10px; line-height: 1.75; color: #595959; font-family: Optima-Regular, Optima, PingFangTC-Light, PingFangSC-light, PingFangTC-light; letter-spacing: 2px; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"><p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">今天上午花了大概一个小时阅读了<a href="https://juejin.im/book/5c526902e51d4543805ef35e" style="text-decoration: none; word-wrap: break-word; color: #664D9D; font-weight: normal; border-bottom: 1px solid #664D9D;">你不知道的 Chrome 调试技巧</a>这本掘金小册，收获颇多，并且也认识到，系统的学习是多么的重要，所以在这里记录下看完这本小册，我认为可以提高效率的技巧。强推这本小册，只需要<code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">0.01</code>元。</p>]]></summary>
-        <content type="html"><![CDATA[<section id="nice" data-tool="mdnice编辑器" data-website="https://www.mdnice.com" style="font-size: 16px; padding: 0 10px; word-spacing: 0px; word-break: break-word; word-wrap: break-word; text-align: left; margin-top: -10px; line-height: 1.75; color: #595959; font-family: Optima-Regular, Optima, PingFangTC-Light, PingFangSC-light, PingFangTC-light; letter-spacing: 2px; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"><p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">今天上午花了大概一个小时阅读了<a href="https://juejin.im/book/5c526902e51d4543805ef35e" style="text-decoration: none; word-wrap: break-word; color: #664D9D; font-weight: normal; border-bottom: 1px solid #664D9D;">你不知道的 Chrome 调试技巧</a>这本掘金小册，收获颇多，并且也认识到，系统的学习是多么的重要，所以在这里记录下看完这本小册，我认为可以提高效率的技巧。强推这本小册，只需要<code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">0.01</code>元。</p>
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>你不知道的Chrome调试技巧 | Wayne</title>
+<link rel="shortcut icon" href="https://zwmmm.github.io/favicon.ico?v=1591102579406">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://zwmmm.github.io/styles/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Wayne
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+        </div>
+    </div>
+</nav>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    你不知道的Chrome调试技巧
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2020-06-02 ·
+                    </time>
+                    
+                </div>
+                <div>
+                    <section id="nice" data-tool="mdnice编辑器" data-website="https://www.mdnice.com" style="font-size: 16px; padding: 0 10px; word-spacing: 0px; word-break: break-word; word-wrap: break-word; text-align: left; margin-top: -10px; line-height: 1.75; color: #595959; font-family: Optima-Regular, Optima, PingFangTC-Light, PingFangSC-light, PingFangTC-light; letter-spacing: 2px; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"><p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">今天上午花了大概一个小时阅读了<a href="https://juejin.im/book/5c526902e51d4543805ef35e" style="text-decoration: none; word-wrap: break-word; color: #664D9D; font-weight: normal; border-bottom: 1px solid #664D9D;">你不知道的 Chrome 调试技巧</a>这本掘金小册，收获颇多，并且也认识到，系统的学习是多么的重要，所以在这里记录下看完这本小册，我认为可以提高效率的技巧。强推这本小册，只需要<code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">0.01</code>元。</p>
 <!-- more -->
 <h2 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; text-align: left; margin: 20px 10px 0px 0px;"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 18px; font-weight: bold; display: inline-block; padding-left: 10px; border-left: 5px solid #DEC6FB; color: #595959;">Dev Tools</span><span class="suffix"></span></h2>
 <ul data-tool="mdnice编辑器" style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; font-size: 15px; color: #595959; list-style-type: circle;">
@@ -69,104 +140,92 @@
 <blockquote data-tool="mdnice编辑器" style="display: block; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; text-size-adjust: 100%; line-height: 1.55em; font-weight: 400; border-radius: 6px; color: #595959; font-style: normal; text-align: left; box-sizing: inherit; border-left: none; border: 1px solid #DEC6FB; background: #F6EEFF;"><span style="color: #DEC6FB; font-size: 34px; line-height: 1; font-weight: 700;">❝</span>
 <p style="padding-top: 8px; padding-bottom: 8px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px; margin: 0px; line-height: 26px; color: #595959;">最后再次推荐<a href="https://juejin.im/book/5c526902e51d4543805ef35e" style="text-decoration: none; word-wrap: break-word; color: #664D9D; font-weight: normal; border-bottom: 1px solid #664D9D;">你不知道的 Chrome 调试技巧</a></p>
 <span style="float: right; color: #DEC6FB;">❞</span></blockquote>
-<p id="nice-suffix-juejin-container" class="nice-suffix-juejin-container" data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px; margin-top: 20px !important;">本文使用 <a href="https://mdnice.com" style="text-decoration: none; word-wrap: break-word; color: #664D9D; font-weight: normal; border-bottom: 1px solid #664D9D;">mdnice</a> 排版</p></section>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[前端预渲染方案]]></title>
-        <id>https://zwmmm.github.io/prerender/</id>
-        <link href="https://zwmmm.github.io/prerender/">
-        </link>
-        <updated>2020-05-29T03:18:27.000Z</updated>
-        <summary type="html"><![CDATA[<section id="nice" data-tool="mdnice编辑器" data-website="https://www.mdnice.com" style="font-size: 16px; padding: 0 10px; word-spacing: 0px; word-break: break-word; word-wrap: break-word; text-align: left; margin-top: -10px; line-height: 1.75; color: #595959; font-family: Optima-Regular, Optima, PingFangTC-Light, PingFangSC-light, PingFangTC-light; letter-spacing: 2px; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"><h2 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; text-align: left; margin: 20px 10px 0px 0px;"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 18px; font-weight: bold; display: inline-block; padding-left: 10px; border-left: 5px solid #DEC6FB; color: #595959;">🌵前言</span><span class="suffix"></span></h2>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">开发一个官网项目，由于使用传统的多页面开发模式，不利于做优化。</p>
-<h2 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; text-align: left; margin: 20px 10px 0px 0px;"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 18px; font-weight: bold; display: inline-block; padding-left: 10px; border-left: 5px solid #DEC6FB; color: #595959;">🎄预渲染</span><span class="suffix"></span></h2>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">通过使用 <a href="https://github.com/chrisvfritz/prerender-spa-plugin" style="text-decoration: none; word-wrap: break-word; color: #664D9D; font-weight: normal; border-bottom: 1px solid #664D9D;">prerender-spa-plugin</a> 生成静态页面，既提高了页面渲染的速度，也利于 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">seo</code>，使用方式如下</p>]]></summary>
-        <content type="html"><![CDATA[<section id="nice" data-tool="mdnice编辑器" data-website="https://www.mdnice.com" style="font-size: 16px; padding: 0 10px; word-spacing: 0px; word-break: break-word; word-wrap: break-word; text-align: left; margin-top: -10px; line-height: 1.75; color: #595959; font-family: Optima-Regular, Optima, PingFangTC-Light, PingFangSC-light, PingFangTC-light; letter-spacing: 2px; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"><h2 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; text-align: left; margin: 20px 10px 0px 0px;"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 18px; font-weight: bold; display: inline-block; padding-left: 10px; border-left: 5px solid #DEC6FB; color: #595959;">🌵前言</span><span class="suffix"></span></h2>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">开发一个官网项目，由于使用传统的多页面开发模式，不利于做优化。</p>
-<h2 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; text-align: left; margin: 20px 10px 0px 0px;"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 18px; font-weight: bold; display: inline-block; padding-left: 10px; border-left: 5px solid #DEC6FB; color: #595959;">🎄预渲染</span><span class="suffix"></span></h2>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">通过使用 <a href="https://github.com/chrisvfritz/prerender-spa-plugin" style="text-decoration: none; word-wrap: break-word; color: #664D9D; font-weight: normal; border-bottom: 1px solid #664D9D;">prerender-spa-plugin</a> 生成静态页面，既提高了页面渲染的速度，也利于 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">seo</code>，使用方式如下</p>
-<!-- more -->
-<pre class="custom" data-tool="mdnice编辑器" style="margin-top: 10px; margin-bottom: 10px; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 10px;"><span style="display: block; background: url(https://imgkr.cn-bj.ufileos.com/97e4eed2-a992-4976-acf0-ccb6fb34d308.png); height: 30px; width: 100%; background-size: 40px; background-repeat: no-repeat; background-color: #282c34; margin-bottom: -7px; border-radius: 5px; background-position: 10px 10px;"></span><code class="hljs" style="overflow-x: auto; padding: 16px; color: #abb2bf; display: block; font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; font-size: 12px; -webkit-overflow-scrolling: touch; padding-top: 15px; background: #282c34; border-radius: 5px;"><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> PrerenderSPAPlugin = <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">require</span>(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'prerender-spa-plugin'</span>);
-<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
-<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> path = <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">require</span>(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'path'</span>);
-<span/>
-<span/><span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">module</span>.exports = {
-<span/>    <span class="hljs-attr" style="color: #d19a66; line-height: 26px;">plugins</span>: [<span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">new</span> PrerenderSPAPlugin({
-<span/>        <span class="hljs-attr" style="color: #d19a66; line-height: 26px;">staticDir</span>: path.join(__dirname, <span class="hljs-string" style="color: #98c379; line-height: 26px;">'dist'</span>),
-<span/>        <span class="hljs-attr" style="color: #d19a66; line-height: 26px;">routes</span>: [ <span class="hljs-string" style="color: #98c379; line-height: 26px;">'/'</span> ], <span class="hljs-comment" style="color: #5c6370; font-style: italic; line-height: 26px;">// 需要预渲染的路由,</span>
-<span/>        renderer: <span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">new</span> Renderer({
-<span/>            <span class="hljs-attr" style="color: #d19a66; line-height: 26px;">headless</span>: <span class="hljs-literal" style="color: #56b6c2; line-height: 26px;">true</span>, <span class="hljs-comment" style="color: #5c6370; font-style: italic; line-height: 26px;">// 开启无头浏览器</span>
-<span/>            renderAfterDocumentEvent: <span class="hljs-string" style="color: #98c379; line-height: 26px;">'render-event'</span>, <span class="hljs-comment" style="color: #5c6370; font-style: italic; line-height: 26px;">// 渲染的事件，只有触发了这个事件，插件才会开始爬取html</span>
-<span/>          }),
-<span/>    })]
-<span/>}
-<span/></code></pre>
-<pre class="custom" data-tool="mdnice编辑器" style="margin-top: 10px; margin-bottom: 10px; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 10px;"><span style="display: block; background: url(https://imgkr.cn-bj.ufileos.com/97e4eed2-a992-4976-acf0-ccb6fb34d308.png); height: 30px; width: 100%; background-size: 40px; background-repeat: no-repeat; background-color: #282c34; margin-bottom: -7px; border-radius: 5px; background-position: 10px 10px;"></span><code class="hljs" style="overflow-x: auto; padding: 16px; color: #abb2bf; display: block; font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; font-size: 12px; -webkit-overflow-scrolling: touch; padding-top: 15px; background: #282c34; border-radius: 5px;"><span class="hljs-comment" style="color: #5c6370; font-style: italic; line-height: 26px;">// 在 App.vue 中调用如下方法，事件名称和 renderAfterDocumentEvent 保持一直，其他框架在类似的生命周期调用即可</span>
-<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">export</span> <span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">default</span> {
-<span/>  mounted() {
-<span/>    <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">document</span>.dispatchEvent(<span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">new</span> Event(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'render-event'</span>));
-<span/>  }
-<span/>};
-<span/></code></pre>
-<h2 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 22px; text-align: left; margin: 20px 10px 0px 0px;"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 18px; font-weight: bold; display: inline-block; padding-left: 10px; border-left: 5px solid #DEC6FB; color: #595959;">踩坑记录</span><span class="suffix"></span></h2>
-<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; color: black; font-size: 16px; font-weight: bold; text-align: center;"><span class="prefix" style="display: none;"></span><span class="content" style="border-bottom: 2px solid #DEC6FB; color: #595959;">Unable to prerender all routes!</span><span class="suffix" style="display: none;"></span></h3>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">在mac下设置了 headless: false 导致提示 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">Unable to prerender all routes!</code> google 了一堆，告诉我说不能使用路由懒加载，其实造成这个报错的原因有很多，我是设置了headless: true 就好了
-![](https://zwmmm.github.io/post-images/1590735278740.jpg)</p>
-<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; color: black; font-size: 16px; font-weight: bold; text-align: center;"><span class="prefix" style="display: none;"></span><span class="content" style="border-bottom: 2px solid #DEC6FB; color: #595959;">静态资源使用了cdn</span><span class="suffix" style="display: none;"></span></h3>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">由于使用了cdn，但是我们还没有发布，所以cdn上并没有对于的资源，导致页面加载失败（终端会一直卡住没反应）</p>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">这个的解决办法，google一搜也有很多的解决办法，比较好的办法就是使用代理，将cdn地址代理到本地。
-我看了几篇文章，都是重新用node起一个代理服务，其实 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">prerender-spa-plugin</code>  本身就可以设置代理。</p>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">只需要将代理服务起的端口号改成80，并且修改本机host中127.0.0.1的映射就可以实现代理，这样设置以后，请求 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">xxx.cdn.com/static/1.txt</code> 就等于 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">127.0.0.1/static/1.txt</code></p>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">具体代码如下：</p>
-<pre class="custom" data-tool="mdnice编辑器" style="margin-top: 10px; margin-bottom: 10px; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 10px;"><span style="display: block; background: url(https://imgkr.cn-bj.ufileos.com/97e4eed2-a992-4976-acf0-ccb6fb34d308.png); height: 30px; width: 100%; background-size: 40px; background-repeat: no-repeat; background-color: #282c34; margin-bottom: -7px; border-radius: 5px; background-position: 10px 10px;"></span><code class="hljs" style="overflow-x: auto; padding: 16px; color: #abb2bf; display: block; font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; font-size: 12px; -webkit-overflow-scrolling: touch; padding-top: 15px; background: #282c34; border-radius: 5px;">// webpack.config.js
-<span/>const PrerenderSPAPlugin = require('prerender-spa-plugin');
-<span/>const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
-<span/>const path = require('path');
-<span/>
-<span/>module.exports = {
-<span/>    plugins: [new PrerenderSPAPlugin({
-<span/>        staticDir: path.join(__dirname, 'dist'),
-<span/>        routes: [ '/' ], // 需要预渲染的路由,
-<span/>        renderer: new Renderer({
-<span/>            headless: true, // 开启无头浏览器
-<span/>            renderAfterDocumentEvent: 'render-event', // 渲染的事件，只有触发了这个事件，插件才会开始爬取html
-<span/>        }),
-<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+       server: {</span>
-<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+           port: 80, // 设置端口为80</span>
-<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+           proxy: {</span>
-<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+             '/static: {</span>
-<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+               target: `http://localhost`,</span>
-<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+               changeOrigin: true,</span>
-<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+               pathRewrite: {</span>
-<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+                 '^/static': '/'</span>
-<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+               }</span>
-<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+             }</span>
-<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+          }</span>
-<span/><span class="hljs-addition" style="color: #98c379; line-height: 26px;">+       }</span>
-<span/>    })]
-<span/>}
-<span/></code></pre>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">现在只有最后一步了，修改host这个操作总不能每次手动来吧，我们现在写一个node脚本帮我们做这个事情</p>
-<pre class="custom" data-tool="mdnice编辑器" style="margin-top: 10px; margin-bottom: 10px; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 10px;"><span style="display: block; background: url(https://imgkr.cn-bj.ufileos.com/97e4eed2-a992-4976-acf0-ccb6fb34d308.png); height: 30px; width: 100%; background-size: 40px; background-repeat: no-repeat; background-color: #282c34; margin-bottom: -7px; border-radius: 5px; background-position: 10px 10px;"></span><code class="hljs" style="overflow-x: auto; padding: 16px; color: #abb2bf; display: block; font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; font-size: 12px; -webkit-overflow-scrolling: touch; padding-top: 15px; background: #282c34; border-radius: 5px;"><span class="hljs-comment" style="color: #5c6370; font-style: italic; line-height: 26px;">// build.js</span>
-<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> util = <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">require</span>(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'util'</span>);
-<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> exec = util.promisify(<span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">require</span>(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'child_process'</span>).exec);
-<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> hostile = <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">require</span>(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'hostile'</span>);
-<span/>
-<span/><span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span>  cdnDomain = <span class="hljs-string" style="color: #98c379; line-height: 26px;">'xxx.cdn.com'</span>;
-<span/>
-<span/>process.env.FORCE_COLOR = <span class="hljs-literal" style="color: #56b6c2; line-height: 26px;">true</span>; <span class="hljs-comment" style="color: #5c6370; font-style: italic; line-height: 26px;">// 开启控制台打印的颜色</span>
-<span/>
-<span/>hostile.set(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'127.0.0.1'</span>, cdnDomain, <span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">async</span> () =&gt; {
-<span/>  <span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">const</span> { stdout, stderr } = <span class="hljs-keyword" style="color: #c678dd; line-height: 26px;">await</span> exec(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'vue-cli-service build'</span>);
-<span/>  <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">console</span>.log(stdout);
-<span/>  <span class="hljs-built_in" style="color: #e6c07b; line-height: 26px;">console</span>.log(stderr);
-<span/>  hostile.remove(<span class="hljs-string" style="color: #98c379; line-height: 26px;">'127.0.0.1'</span>, cdnDomain, () =&gt; process.exit(<span class="hljs-number" style="color: #d19a66; line-height: 26px;">0</span>));
-<span/>});
-<span/></code></pre>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">最后 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">node build.js</code> 完成打包</p>
-<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; color: black; font-size: 16px; font-weight: bold; text-align: center;"><span class="prefix" style="display: none;"></span><span class="content" style="border-bottom: 2px solid #DEC6FB; color: #595959;">代理了cdn带来的问题</span><span class="suffix" style="display: none;"></span></h3>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">本来以为已经完美解决cdn的问题了，但是当我们某些资源在cdn中存在，而在本地不存在，使用代理反而会出现问题。</p>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">我遇到的问题是这样的，为了优化代码的体积，将 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">vue vue-router swiper</code> 等依赖外置，使用cdn的方式引入，而我本地却没有这些文件。由于修改了host，已经没有其他办法在访问到cdn上的资源了。</p>
-<p data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px;">最终的解决办法很笨，在 <code style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: #595959;">public</code> 文件夹中存放这些文件，保证通过代理也能访问到，然后使用 git 忽略这部分文件，避免发布出去。</p>]]></content>
-    </entry>
-</feed>
+<p id="nice-suffix-juejin-container" class="nice-suffix-juejin-container" data-tool="mdnice编辑器" style="padding-top: 8px; padding-bottom: 8px; line-height: 26px; color: #595959; margin: 10px 0px; letter-spacing: 2px; font-size: 14px; word-spacing: 2px; margin-top: 20px !important;">本文使用 <a href="https://mdnice.com" style="text-decoration: none; word-wrap: break-word; color: #664D9D; font-weight: normal; border-bottom: 1px solid #664D9D;">mdnice</a> 排版</p></section>
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://zwmmm.github.io/prerender/" class="post-title gt-a-link">
+                    前端预渲染方案
+                </a>
+            </div>
+        
+
+        
+            <span id="/ni-bu-zhi-dao-de-chrome-diao-shi-ji-qiao/" class="leancloud_visitors" data-flag-title="你不知道的Chrome调试技巧">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+		
+		
+			<script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'FoQQszlCbOJCpxS7DyfCCcTc-gzGzoHsz',
+		appKey: 'B3KO1fMfPMULFtvxdcUx4yap',
+		avatar: 'robohash',
+		pageSize: 10,
+		recordIp: true,
+		placeholder: '发表你的评论!!!',
+		visitor: true,
+	});
+</script>
+        
+        
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">至繁归至简</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/zwmmm" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/zwmmm" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://zwmmm.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+    hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
